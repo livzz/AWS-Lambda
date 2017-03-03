@@ -1,1 +1,1 @@
-# AWS-Lambda
+# AWS Lambda and dynamodb (underdevelopment)
