@@ -1,1 +1,1 @@
-# AWS Lambda and dynamodb (underdevelopment)
+# AWS Lambda, Dynamodb and SNS (underdevelopment)
