@@ -103,7 +103,7 @@ function sms(context,param,code) {
     var params = {
         attributes: { /* required */
             DefaultSMSType  :   'Transactional',
-            DefaultSenderID :   'FoodyPark'
+            DefaultSenderID :   'SenderID'
             /* anotherKey: ... */
         }
     };
@@ -118,7 +118,7 @@ function sms(context,param,code) {
         }           // successful response
     });
     params = {
-        Message: 'Your Verification code is '+code+'\n\n\n-Team FoodyPark', /* required */
+        Message: 'Your Message', /* required */
         Subject: 'Testing Subject',
         PhoneNumber: '+91' + param.phno
     };
